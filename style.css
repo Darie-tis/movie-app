@@ -124,3 +124,12 @@ header {
     font-weight: 500;
     
 }
+.section-title {
+    text-align: center;       
+    margin: 2rem 0 1rem 0;    
+    font-size: 2rem;          
+    color: white;           
+    text-transform: uppercase; 
+    letter-spacing: 2px;      
+    font-weight: bold;
+}
