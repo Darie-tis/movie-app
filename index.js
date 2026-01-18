@@ -1,11 +1,11 @@
+const api_key = config.api;
 const options = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZTE5MmMzN2U1MzMwOTUyZjUyNGRjZDdiYjk0MTliZiIsIm5iZiI6MTc2ODczMDkzMy4wNjA5OTk5LCJzdWIiOiI2OTZjYjEzNTQ0YTk3MTUzYTczNmFkYWYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.c6xKJ9N5WiITTaGFVlVyuvcyBOTF5qKlef2VCIjhBlg'
+   Authorization: `Bearer ${api_key}`
   }
 };
-
 const movieForm = document.querySelector(".movieForm");
 const movieInput = document.querySelector(".movieInput");
 const container = document.querySelector(".container");
